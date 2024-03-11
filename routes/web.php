@@ -19,4 +19,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/submit-form', [Certicate::class, 'submitForm'])->name('submit-form');
+Route::post('/certificate', [Certicate::class, 'submitForm'])->name('certificate');
